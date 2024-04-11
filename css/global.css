@@ -1,0 +1,85 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --blue: #0e9de5;
+  --sky-blue: #03dffb;
+  --white: #ffffff;
+  --text-muted: rgb(121, 121, 121);
+  --text-color: rgb(61, 61, 61);
+  --light-brown: #f3f3f2;
+  --orange: #ffa800;
+  --pink: #fe005e;
+  --red: #ea0109;
+}
+
+@font-face {
+  font-family: "Champagne";
+  src: url("../assets/font/Champagne & Limousines.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Champagne";
+  src: url("../assets/font/Champagne & Limousines Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gothic";
+  src: url("../assets/font/gothicb.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pacifico";
+  src: url("../assets/font/Pacifico-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rockwell";
+  src: url("../assets/font/Rockwell-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rockwell";
+  src: url("../assets/font/ROCK.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TrajanPro";
+  src: url("../assets/font/TrajanPro-Bold.otf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 1rem;
+}
